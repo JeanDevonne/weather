@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": -77.04,
+        "lat": -12.06
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 292.15,
+        "pressure": 1013,
+        "humidity": 72,
+        "temp_min": 292.15,
+        "temp_max": 292.15
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 4.1,
+        "deg": 180
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1566503886,
+    "sys": {
+        "type": 1,
+        "id": 8682,
+        "message": 0.0072,
+        "country": "PE",
+        "sunrise": 1566472684,
+        "sunset": 1566515072
+    },
+    "timezone": -18000,
+    "id": 3936456,
+    "name": "Lima",
+    "cod": 200
+}

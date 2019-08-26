@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+.main {
+    height: 100vh;
+    widows: 100vw;
+    background: linear-gradient(#1D3559,#395a83);
+    padding: 40px;
+}
+.ciudad {
+    text-align: center;
+    font-size: 26px;
+}
+.contenedor-temperatura {
+    text-align: center;
+}
+.temperatura {
+    font-family: 'HelveticaNeue-Thin';
+    font-size: 100px;
+}
+.wind-section {
+    position: relative;
+    border: 1px dotted white;
+}
+.wind-turbine {
+    position: relative;
+    display: inline-block;
+    /* border: 1px dotted white; */
+    height: 300px;
+    width: 120px;
+    padding: 10px;
+}
+.wind-turbine--scale {
+    margin-bottom: 0;
+    transform: scale(.8);
+    transform-origin : 50% 92%;
+}
+.blade-container {
+    width: 100%;
+    text-align: center;
+}
+.blade {
+    /* display: block; */
+    height: 100px;
+    animation: rotate 3s linear infinite;
+    transform-origin: 50% 66%;
+}
+.tower-container {
+    width: 100%;
+    text-align: center;
+}
+.tower {
+    height: 200px;
+    margin-top: -20px;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+}
+
+.wind-info {
+    display: inline-block;
+    position: absolute;
+    margin-top: 0;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url(http://unsplash.it/1500/1000?blur=5); */
+    z-index: -10;
+}

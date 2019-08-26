@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="main">
+        <p id="ciudad" class="ciudad">City</p>
+        <div class="contenedor-temperatura">
+            <span id="temperatura" class="temperatura"></span>
+            <img id="icono-tiempo" src="" alt="">
+            <p><span id="maxima">0</span>/<span id="minima">0</span></p>
+            <p id="descripcion">Loading...</p>
+        </div>
+        <p>Actualizado: 1:20 pm</p>
+        <hr>
+        <p>Nivel de confort</p>
+        <hr>
+        <div>
+            <div>
+                <p>Humedad: <span id="humedad"></span></p>
+            </div>
+            <div>
+                <p>ST:</p>
+                <p>Indice UV:</p>
+            </div>
+        </div>
+        <hr>
+        <p>Viento</p>
+        <div class="wind-section">
+            <div class="wind-turbine">
+                <div class="blade-container">
+                    <img class="blade" src="img/blade.png" alt="blade of wind turbine">
+                </div>
+                <div class="tower-container">
+                    <img class="tower" src="img/tower.png" alt="tower of wind turbine">
+                </div>
+            </div>
+            <div class="wind-turbine wind-turbine--scale">
+                <div class="blade-container">
+                    <img class="blade" src="img/blade.png" alt="blade of wind turbine">
+                </div>
+                <div class="tower-container">
+                    <img class="tower" src="img/tower.png" alt="tower of wind turbine">
+                </div>
+            </div>
+            <div class="wind-info">
+                <p>Dirección: <span id="direccion-viento">0°</span></p>
+                <p>Velocidad: <span id="velocidad-viento">0 km/h</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="background">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
