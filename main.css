@@ -1,7 +1,7 @@
 body {
     margin: 0;
     color: white;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen',Arial, sans-serif;
 }
 .main {
     height: 100vh;
@@ -22,7 +22,7 @@ body {
 }
 .wind-section {
     position: relative;
-    border: 1px dotted white;
+    /* border: 1px dotted white; */
 }
 .wind-turbine {
     position: relative;
